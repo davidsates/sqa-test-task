@@ -1,7 +1,7 @@
 package com.david.domain.models;
 
 // Class for Comments Data Model (Domain Layer)
-public class Comment {
+public class Comments {
 
     private int postId;
     private int id;

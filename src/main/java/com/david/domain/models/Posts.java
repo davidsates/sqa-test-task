@@ -1,7 +1,7 @@
 package com.david.domain.models;
 
 //Class for Posts Data Model (Domain Layer)
-public class Post { 
+public class Posts { 
 
     private int userId;
     private int id;
