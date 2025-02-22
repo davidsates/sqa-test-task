@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-21T18:17:29 CST" name="API Testing Suite" finished-at="2025-02-21T18:17:36 CST" duration-ms="7115">
+    <groups>
+    </groups>
+    <test started-at="2025-02-21T18:17:29 CST" name="Posts Tests" finished-at="2025-02-21T18:17:34 CST" duration-ms="5452">
+      <class name="com.david.tests.TestPosts">
+        <test-method signature="testGetPostBody()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:29 CST" name="testGetPostBody" finished-at="2025-02-21T18:17:32 CST" duration-ms="3362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostBody -->
+        <test-method signature="testCreatePost()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:29 CST" name="testCreatePost" finished-at="2025-02-21T18:17:32 CST" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePost -->
+        <test-method signature="testDeletePost()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:29 CST" name="testDeletePost" finished-at="2025-02-21T18:17:32 CST" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePost -->
+        <test-method signature="testGetPostById()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:32 CST" name="testGetPostById" finished-at="2025-02-21T18:17:32 CST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostById -->
+        <test-method signature="testGetPostByInvalidId()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:32 CST" name="testGetPostByInvalidId" finished-at="2025-02-21T18:17:33 CST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostByInvalidId -->
+        <test-method signature="testGetPostTitle()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:32 CST" name="testGetPostTitle" finished-at="2025-02-21T18:17:33 CST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostTitle -->
+        <test-method signature="testGetPostUserId()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:32 CST" name="testGetPostUserId" finished-at="2025-02-21T18:17:33 CST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostUserId -->
+        <test-method signature="testGetPosts()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:33 CST" name="testGetPosts" finished-at="2025-02-21T18:17:34 CST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPosts -->
+        <test-method signature="testPatchPost()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:33 CST" name="testPatchPost" finished-at="2025-02-21T18:17:34 CST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchPost -->
+        <test-method signature="testUpdatePost()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:33 CST" name="testUpdatePost" finished-at="2025-02-21T18:17:34 CST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePost -->
+        <test-method signature="testUpdatePostInvalidId()[pri:0, instance:com.david.tests.TestPosts@5bd03f44]" started-at="2025-02-21T18:17:34 CST" name="testUpdatePostInvalidId" finished-at="2025-02-21T18:17:34 CST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePostInvalidId -->
+      </class> <!-- com.david.tests.TestPosts -->
+    </test> <!-- Posts Tests -->
+    <test started-at="2025-02-21T18:17:34 CST" name="Comments Tests" finished-at="2025-02-21T18:17:36 CST" duration-ms="1623">
+      <class name="com.david.tests.TestComments">
+        <test-method signature="testGetCommentBodyByPostId()[pri:0, instance:com.david.tests.TestComments@1a451d4d]" started-at="2025-02-21T18:17:34 CST" name="testGetCommentBodyByPostId" finished-at="2025-02-21T18:17:35 CST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentBodyByPostId -->
+        <test-method signature="testGetCommentNameByPostId()[pri:0, instance:com.david.tests.TestComments@1a451d4d]" started-at="2025-02-21T18:17:34 CST" name="testGetCommentNameByPostId" finished-at="2025-02-21T18:17:36 CST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentNameByPostId -->
+        <test-method signature="testGetCommentEmailByPostId()[pri:0, instance:com.david.tests.TestComments@1a451d4d]" started-at="2025-02-21T18:17:34 CST" name="testGetCommentEmailByPostId" finished-at="2025-02-21T18:17:35 CST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentEmailByPostId -->
+        <test-method signature="testGetCommentsFromPost()[pri:0, instance:com.david.tests.TestComments@1a451d4d]" started-at="2025-02-21T18:17:35 CST" name="testGetCommentsFromPost" finished-at="2025-02-21T18:17:36 CST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentsFromPost -->
+        <test-method signature="testGetCommentsFromPostByQueryParam()[pri:0, instance:com.david.tests.TestComments@1a451d4d]" started-at="2025-02-21T18:17:35 CST" name="testGetCommentsFromPostByQueryParam" finished-at="2025-02-21T18:17:36 CST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentsFromPostByQueryParam -->
+        <test-method signature="testGetCommentsFromPostByQueryParamInvalidId()[pri:0, instance:com.david.tests.TestComments@1a451d4d]" started-at="2025-02-21T18:17:36 CST" name="testGetCommentsFromPostByQueryParamInvalidId" finished-at="2025-02-21T18:17:36 CST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentsFromPostByQueryParamInvalidId -->
+      </class> <!-- com.david.tests.TestComments -->
+    </test> <!-- Comments Tests -->
+  </suite> <!-- API Testing Suite -->
+</testng-results>
