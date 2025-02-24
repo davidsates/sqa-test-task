@@ -21,7 +21,7 @@ This project was developed as part of a test task requesting a test automation s
 - Layered Architecture (Core, Domain, Tests).
 - Integration with TestNG and REST Assured testing tools.
 - Critical path tests validations (positive and negative).
-- Comments implemented for the understading of the code.
+- Comments implemented for code understanding.
 - Parallel Execution (4 Threads).
 - Naming and Code Conventions: Oracle Code Conventions for Java, RestAssured/TestNG/Maven Documentation and Google Java Style Guide.
 
