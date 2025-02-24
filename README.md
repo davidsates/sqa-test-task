@@ -53,12 +53,12 @@ This project was developed as part of a test task requesting a test automation s
     ```
 - Running a Specific Test Set:
 
-    Posts Test Suite
+    Posts Test Set
     ```bash
     mvn test -Dtest=TestPosts
     ```
 
-    Comments Test Suite
+    Comments Test Set
     ```bash
     mvn test -Dtest=TestsComments
     ```
