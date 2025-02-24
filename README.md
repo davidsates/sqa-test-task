@@ -1,6 +1,6 @@
 # SQA Test Task - REST API Testing
 
-## Descripción
+## Description
 
 This project was developed as part of a test task requesting a test automation solution for {JSON} Placeholder, a free fake API for testing and prototyping, where the objective is to create a test suite for testing the following methods:
 
