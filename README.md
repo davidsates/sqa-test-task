@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was developed as part of a test task requesting a test automation solution for {JSON} Placeholder, a free fake API for testing and prototyping, where the objective is to create a test suite for testing the following methods:
+This project was developed as part of a test task requesting a test automation solution for [{JSON} Placeholder](https://jsonplaceholder.typicode.com/), a free fake API for testing and prototyping. The objective is to create a test suite to test the following methods:
 
 | Method  | Route                    |
 |---------|--------------------------|
@@ -80,14 +80,14 @@ This project was developed as part of a test task requesting a test automation s
     |                       ├── Comments.java
     |                       └── Posts.java    
     ├── test
-    |    └── java
-    │        └── com
-    │            └── david
-    │                └── tests
-    │                    ├── TestComments.java
-    │                    └── TestPosts.java
-    ├── resources
-    |   └── testng.xml
+    |   ├── java
+    │   |   └── com
+    │   |       └── david
+    │   |           └── tests
+    │   |               ├── TestComments.java
+    │   |               └── TestPosts.java
+    |   └── resources
+    |       └── testng.xml
     ├── pom.xml
     └── README.md
 
@@ -98,7 +98,7 @@ This project was developed as part of a test task requesting a test automation s
         * `models`: Contains Data Models.
 * `src/test/java`: Contains the test source code.
     * `tests`: Contains the tests implemented.
-* `src/test/resources`: Contains test resources.
+    * `resources`: Contains test resources.
 * `pom.xml`: Maven configuration file.
 * `README.md`: This file.
 
