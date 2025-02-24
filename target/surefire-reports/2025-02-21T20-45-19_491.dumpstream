@@ -1,5 +1,0 @@
-# Created at 2025-02-21T20:45:19.828
-Boot Manifest-JAR contains absolute paths in classpath 'D:\jd_sa\Documents\Java Projects\SQA Test Task\sqa-test-task\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-
