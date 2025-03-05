@@ -60,7 +60,7 @@ This project was developed as part of a test task requesting a test automation s
 
     Comments Test Set
     ```bash
-    mvn test -Dtest=TestsComments
+    mvn test -Dtest=TestComments
     ```
 
 ## Project Structure
